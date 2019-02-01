@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13196" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14313.18"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13196"/>
+        <capability name="box content view" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -41,9 +42,9 @@
             <connections>
                 <outlet property="delegate" destination="-2" id="sCa-yg-4Wb"/>
             </connections>
-            <point key="canvasLocation" x="1737" y="1436"/>
+            <point key="canvasLocation" x="2065" y="1470"/>
         </window>
-        <drawer id="2044" userLabel="scopeDrawer">
+        <drawer preferredEdge="minX" id="2044" userLabel="scopeDrawer">
             <size key="contentSize" width="195" height="480"/>
             <size key="minContentSize" width="195" height="480"/>
             <size key="maxContentSize" width="195" height="480"/>
